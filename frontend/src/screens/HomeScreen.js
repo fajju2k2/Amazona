@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 // (from static) import data from '../data';
 import axios from 'axios';
-import { useEffect, useReducer } from 'react';
+import { useEffect, useReducer, useState } from 'react';
 import logger from 'use-reducer-logger';
 
 const reducer = (state, action) => {
